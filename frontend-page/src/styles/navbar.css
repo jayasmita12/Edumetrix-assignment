@@ -1,0 +1,125 @@
+body{
+    margin:0px
+}
+.navbar{
+    width:100%;
+    background-color: rgb(48, 47, 47);
+}
+.navbar ul{
+    padding: 20px;
+    display: flex;
+    gap:40px
+}
+.link{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+}
+.link:hover{
+    border-radius: 5px;
+    background-color: rgb(86, 84, 84);
+}
+
+.login-form,.student-form{
+    width:50%;
+    margin: auto;
+    margin-top: 30px;
+    line-height: 40px;
+}
+img{
+    border-radius: 50%;
+}
+
+@media screen and (max-width:2000px)and (min-width:800px){
+    .agent-page{
+        display: flex;
+        justify-content: center;
+        gap:60px;
+        margin-top: 30px;
+    }
+    .agent-form{
+        width:36%; 
+    }
+    .profile-view{
+        width:36%;
+    }
+    .agent-image{
+        margin: auto;
+        width:250px;
+        height: 250px;
+        border-radius: 130px;
+       
+    }
+    .edit-image{
+        top:20px;
+        text-align: center;
+        bottom: 20px;
+    }
+    .agent-data{
+        width:70%;
+        margin: auto;
+        margin-top: 70px;
+        text-align: center;
+        border:3px solid green;
+        padding:20px 40px;
+        background-color: rgb(92, 157, 92);
+    }
+}
+
+
+@media screen and (max-width:1000px)and (min-width:800px){
+    .agent-image{
+        margin: auto;
+        width:150px;
+        height: 150px;
+        border-radius: 130px;
+      
+    }
+    .edit-image{
+        top:20px;
+        text-align: center;
+    }
+    .agent-data{
+        width:100%;
+        text-align: center;
+        margin-top: 70px;
+        border:3px solid green;
+        background-color: rgb(92, 157, 92);
+    }
+}
+
+
+@media screen and (max-width:800px)and (min-width:300px){
+    .agent-page{
+        width:70%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .login-form,.student-form{
+        width:70%
+    }
+    .profile-view{
+        width:100%;
+        margin-top: 30px;
+        height:300px;
+    }
+    .agent-image{
+        margin: auto;
+        width:150px;
+        height: 150px;
+        border-radius: 80px;
+      
+    }
+    .edit-image{
+        top:20px;
+        text-align: center;
+    }
+    .agent-data{
+        width:100%;
+        margin-top: 70px;
+        text-align: center;
+        border:3px solid green;
+        /* padding:20px 40px; */
+        background-color: rgb(92, 157, 92);
+    }
+}
