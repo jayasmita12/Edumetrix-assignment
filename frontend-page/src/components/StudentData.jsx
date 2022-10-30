@@ -14,7 +14,7 @@ export const StudentData = () => {
   const [emailalert, setEmailalert] = useState(false)
 
   const handleStudentDatasubmit = async () => {
-    let res = await fetch("http://localhost:7000/api/student", {
+    let res = await fetch("https://edumetrix-app.herokuapp.com/api/student", {
       method: "post",
       body: JSON.stringify({
         name: name,

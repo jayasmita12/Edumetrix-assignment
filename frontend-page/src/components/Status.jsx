@@ -14,7 +14,7 @@ export const Status = () => {
   const [studentdata,setStudentData] =useState([])
 
   const fetchData = async()=>{
-    let res = await fetch("http://localhost:7000/api/student")
+    let res = await fetch("https://edumetrix-app.herokuapp.com/api/student")
     let data=await res.json() 
     setStudentData(data.student)
   }

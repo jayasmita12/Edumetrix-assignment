@@ -12,7 +12,7 @@ function App() {
 
   const updateloginStatus = async () => {
     
-    let res=await fetch("http://localhost:7000/api/login",{
+    let res=await fetch("https://edumetrix-app.herokuapp.com/api/login",{
       method:"post",
       body:JSON.stringify({email,password}),
       headers:{

@@ -18,7 +18,7 @@ export const AgentProfile = () => {
   const [emailalert, setEmailalert] = useState(false)
 
   const handleAgentsubmit = async () => {
-    let res = await fetch("http://localhost:7000/api/agent", {
+    let res = await fetch("https://edumetrix-app.herokuapp.com/api/agent", {
       method: "post",
       body: JSON.stringify({
         name: name,
